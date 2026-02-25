@@ -1,0 +1,383 @@
+    .card,
+    .card img,
+    .tag,
+    .card h3,
+    .card p,
+    .logo-placeholder img {
+      transition: all 0.35s ease;
+    }
+
+    #tag-filters .btn.active {
+      background: #0d6efd;
+      color: white;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.015);
+      box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+    }
+
+    .card:hover .logo-placeholder img {
+      transform: scale(1.08);
+    }
+
+    .card:hover .tag {
+      background: var(--adistec-accent);
+      color: white;
+      box-shadow: 0 6px 18px rgba(31,111,235,0.35);
+    }
+
+    .card:hover h3 {
+      color: var(--adistec-accent);
+    }
+
+    .card {
+      backdrop-filter: blur(4px);
+    }
+
+    .card-cta {
+      border: 1px dashed var(--adistec-accent);
+    }
+
+    .card-cta:hover {
+      background: linear-gradient(135deg, #ffffff, #eef3ff);
+      box-shadow: 0 18px 50px rgba(31,111,235,0.25);
+    }
+
+    .card-cta:hover .cta-arrow {
+      transform: translateX(8px) scale(1.1);
+    }
+
+    .card-link {
+      display: block;
+    }
+
+    .card-link:focus-visible .card {
+      outline: 2px solid var(--adistec-accent);
+      outline-offset: 4px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+ 
+    /* =======================
+      RESET E BASE
+    ======================= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.5;
+      padding: 2rem;
+    }
+
+    h1, h2, h3, h4 {
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* =======================
+      TOPO DA PÁGINA
+    ======================= */
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    #page-title {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    #page-description {
+      font-size: 1.1rem;
+      color: #666;
+    }
+
+    /* =======================
+      ESTEIRA DE LOGOS
+    ======================= */
+    .esteira-track {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding: 1rem 0;
+      scrollbar-width: thin;
+      scrollbar-color: #ccc transparent;
+    }
+
+    .esteira-track::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .esteira-track::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 3px;
+    }
+
+    .logo-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 120px;
+      height: 80px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .logo-card img {
+      max-height: 50px;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .logo-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    /* =======================
+      VENDOR DESCRIPTION
+    ======================= */
+    #vendor-description {
+      margin: 2rem 0;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    /* =======================
+      TAGS
+    ======================= */
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .tag-list .badge {
+      background-color: #e0e7ff;
+      color: #3730a3;
+      padding: 0.35rem 0.75rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+    }
+
+    /* =======================
+      GRID DE PRODUTOS
+    ======================= */
+    .vendor-content .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 260px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 0.75rem 0 0.5rem 0;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+      flex-grow: 1;
+    }
+
+    .card img {
+      max-height: 80px;
+      max-width: 100%;
+      object-fit: contain;
+      margin-bottom: 0.75rem;
+    }
+
+    /* =======================
+      PERFIL DE CLIENTES
+    ======================= */
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .profile-grid h4 {
+      font-size: 1rem;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+
+    .profile-grid ul {
+      list-style: disc;
+      padding-left: 1.2rem;
+    }
+
+    .profile-grid li {
+      font-size: 0.9rem;
+      color: #4b5563;
+      margin-bottom: 0.25rem;
+    }
+
+    /* =======================
+      LISTA DE CONCORRENTES
+    ======================= */
+    .vendor-section ul.inline-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      list-style: none;
+    }
+
+    .vendor-section ul.inline-list li {
+      background-color: #f3f4f6;
+      padding: 0.4rem 0.8rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      color: #1f2937;
+    }
+
+    /* =======================
+      CONTATOS (SIDEBAR)
+    ======================= */
+    .contact-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+
+    .contact-card h4 {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    .contact-card p {
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+
+    .contact-card .email-copia {
+      display: inline-block;
+      background-color: #e0f2fe;
+      color: #0369a1;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      margin-top: 0.25rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: background-color 0.2s;
+    }
+
+    .contact-card .email-copia:hover {
+      background-color: #bae6fd;
+    }
+
+    /* =======================
+      TOAST DE CONFIRMAÇÃO
+    ======================= */
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #0369a1;
+      color: #fff;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      font-size: 0.9rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, transform 0.3s;
+      transform: translateY(20px);
+      z-index: 9999;
+    }
+
+    .toast.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    /* =======================
+      RESPONSIVO
+    ======================= */
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      .vendor-content .grid {
+        grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+      }
+
+      .profile-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .esteira-track {
+        gap: 0.5rem;
+      }
+    }
+
+    /* =======================
+      TAGS BUTTON
+    ======================= */
+    .tag-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px dashed #0d6efd;
+    color: #0d6efd;
+    background-color: rgba(13, 110, 253, 0.05);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-decoration: none;
+  }
+
+  .tag-toggle-btn:hover {
+    background-color: rgba(13, 110, 253, 0.12);
+    border-style: solid;
+    transform: translateY(-1px);
+  }
+
+  .tag-toggle-btn:active {
+    transform: translateY(0);
+  }

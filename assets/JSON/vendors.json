@@ -1,0 +1,304 @@
+{
+  "security": [
+    {
+      "name": "Tenable",
+      "logo": "./assets/IMG/logos/tenable.png",
+      "tags": ["Vulnerabilidades", "Risco"],
+      "description": "Especialista global em gestão de vulnerabilidades.",
+      "link": "vendor.html?type=security&name=Tenable",
+      "esteira": [],
+      "products": [],
+      "competitors": ["Qualys","Rapid7"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Saúde"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["CISO","SecOps","Compliance"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Zscaler",
+      "logo": "./assets/IMG/logos/zscaler.svg",
+      "tags": ["SASE", "Zero Trust"],
+      "description": "Líder global em segurança cloud-native.",
+      "link": "vendor.html?type=security&name=Zscaler",
+      "esteira": [],
+      "products": [],
+      "competitors": ["Netskope","Palo Alto Prisma"],
+      "profile": {
+        "segments":["Tecnologia","Educação","Governo"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["Cloud Security","CISO","Network Security"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "CrowdStrike",
+      "logo": "./assets/IMG/logos/crowdstrike.png",
+      "tags": ["EDR", "Threat Intelligence"],
+      "description": "Proteção avançada de endpoints baseada em cloud.",
+      "link": "vendor.html?type=security&name=CrowdStrike",
+      "esteira": [],
+      "products": [],
+      "competitors": ["SentinelOne","Sophos"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Saúde"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["CISO","SecOps","IT Operations"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Fortinet",
+      "logo": "./assets/IMG/logos/fortinet.png",
+      "tags": ["Firewall", "Network Security"],
+      "description": "Plataforma integrada de segurança de rede.",
+      "link": "vendor.html?type=security&name=Fortinet",
+      "esteira": [],
+      "products": [],
+      "competitors": ["Palo Alto Networks","Check Point"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Governo"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["Network Security","CISO","Infraestrutura"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Palo Alto Networks",
+      "logo": "./assets/IMG/logos/paloalto.png",
+      "tags": ["NGFW", "Cloud Security"],
+      "description": "Segurança avançada para redes e cloud.",
+      "link": "vendor.html?type=security&name=Palo%20Alto%20Networks",
+      "esteira": [],
+      "products": [],
+      "competitors": ["Fortinet","Check Point"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Saúde"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["Network Security","Cloud Security","CISO"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Check Point",
+      "logo": "./assets/IMG/logos/checkpoint.png",
+      "tags": ["Firewall", "Threat Prevention"],
+      "description": "Fabricante global em prevenção de ameaças.",
+      "link": "vendor.html?type=security&name=Check%20Point",
+      "esteira": [],
+      "products": [],
+      "competitors": ["Fortinet","Palo Alto Networks"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Governo"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["Network Security","CISO","SecOps"]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Cyberark",
+      "description": "Fabricante global especializado em gestão de acessos privilegiados (PAM), formado a partir da união da Thycotic com a Centrify, com forte atuação em ambientes corporativos.",
+      "tags": ["PAM","Privileged Access","Zero Trust","AI Security","Least Privilege","Password Vaulting","Session Monitoring","Identity Security","ZTNA","ITDR","IGA","Elevação de privilégio"],
+      "link": "vendor.html?type=security&name=Cyberark",
+      "products": [
+        {"title":"EPM (Endpoint Privilege Management)","logo":"pages/vendors/cyberark/favcon.webp","description":"Aplicação de least privilege em endpoints, removendo direitos administrativos locais e controlando execução de aplicações.","link":"vendor.html?type=security&name=Cyberark"},
+        {"title":"Secure Browser / Secure Web Access","logo":"pages/vendors/cyberark/favcon.webp","description":"Acesso seguro via navegador a sistemas e aplicações sensíveis, com isolamento de sessão e proteção de credenciais.","link":"vendor.html?type=security&name=Cyberark"},
+        {"title":"App Gateway / Acesso a aplicações","logo":"pages/vendors/cyberark/favcon.webp","description":"Publicação segura de aplicações internas com controle de acesso, auditoria e sem exposição direta ou VPN tradicional.","link":"vendor.html?type=security&name=Cyberark"},
+        {"title":"Zero Standing Privilege (ZSP)","logo":"pages/vendors/cyberark/favcon.webp","description":"Acesso privilegiado just-in-time, eliminando privilégios permanentes e reduzindo risco de comprometimento de identidades.","link":"vendor.html?type=security&name=Cyberark"},
+        {"title":"Zilla (IGA)","logo":"pages/vendors/cyberark/favcon.webp","description":"Governança moderna de identidades, automatizando provisionamento, revisões de acesso e compliance.","link":"vendor.html?type=security&name=Cyberark"}
+      ],
+      "competitors": ["BeyondTrust","Delinea","One Identity"],
+      "profile": {
+        "segments":["Tecnologia","Financeiro","Saúde","Governo","Educação"],
+        "sizes":["Medium Business","Enterprise"],
+        "roles":["CISO","Compliance","Segurança da Informação","Infraestrutura","SecOps","Cloud","Segurança Defensiva","Continuidade de Negócios"]
+      },
+      "contacts": [
+        {"name":"Gabriel Scaranello","role":"Product Sales Manager","email":"gscaranello@adistec.com"},
+        {"name":"Augusto Fernandes","role":"Engineering Sales Speclist","email":"afernandes@adistec.com"},
+        {"name":"Cyberark Brasil Adistec","role":"","email":"cyberarkbrasil@adistec.com"}
+      ]
+    }
+  ],
+  "alliances": [
+    {
+      "name": "Nozomi",
+      "logo": "./assets/IMG/logos/nozomi.png",
+      "tags": [],
+      "description": "Segurança para ambientes industriais OT/ICS.",
+      "link": "vendor.html?type=alliances&name=Nozomi",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "SentinelOne",
+      "logo": "./assets/IMG/logos/sentinel.png",
+      "tags": [],
+      "description": "EDR, XDR e proteção avançada.",
+      "link": "vendor.html?type=alliances&name=SentinelOne",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Progress",
+      "logo": "./assets/IMG/logos/progress.png",
+      "tags": [],
+      "description": "Plataforma corporativa para integração e automação.",
+      "link": "vendor.html?type=alliances&name=Progress",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "VMware",
+      "logo": "./assets/IMG/logos/vmware.png",
+      "tags": [],
+      "description": "Virtualização, cloud híbrida e infraestrutura.",
+      "link": "vendor.html?type=alliances&name=VMware",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Red Hat",
+      "logo": "./assets/IMG/logos/redhat.png",
+      "tags": [],
+      "description": "Soluções enterprise Linux e OpenShift.",
+      "link": "vendor.html?type=alliances&name=Red%20Hat",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    }
+  ],
+  "datacenter": [
+    {
+      "name": "Lenovo",
+      "logo": "./assets/IMG/logos/lenovo.png",
+      "tags": [],
+      "description": "Servidores e HCI",
+      "link": "vendor.html?type=datacenter&name=Lenovo",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Pure Storage",
+      "logo": "./assets/IMG/logos/pure.png",
+      "tags": [],
+      "description": "Storage corporativo",
+      "link": "vendor.html?type=datacenter&name=Pure%20Storage",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "NetApp",
+      "logo": "./assets/IMG/logos/netapp.png",
+      "tags": [],
+      "description": "Soluções inteligentes de dados e storage",
+      "link": "vendor.html?type=datacenter&name=NetApp",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Dell Technologies",
+      "logo": "./assets/IMG/logos/dell.png",
+      "tags": [],
+      "description": "Infraestrutura corporativa e data center",
+      "link": "vendor.html?type=datacenter&name=Dell%20Technologies",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "HPE",
+      "logo": "./assets/IMG/logos/hpe.png",
+      "tags": [],
+      "description": "Servidores, storage e cloud híbrida",
+      "link": "vendor.html?type=datacenter&name=HPE",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    },
+    {
+      "name": "Cisco",
+      "logo": "./assets/IMG/logos/cisco.png",
+      "tags": [],
+      "description": "Networking e infraestrutura corporativa",
+      "link": "vendor.html?type=datacenter&name=Cisco",
+      "esteira": [],
+      "products": [],
+      "competitors": [],
+      "profile": {
+        "segments":[],
+        "sizes":[],
+        "roles":[]
+      },
+      "contacts": []
+    }
+  ]
+}

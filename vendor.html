@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adistec Brasil</title>
+  <link href="./assets/CSS/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/CSS/all.css" rel="stylesheet">
+  <link rel="icon" href="pages/vendors/cyberark/favcon.webp" type="image/png">
+</head>
+<body>
+
+<div id="toast" class="toast">Email copiado!</div>
+
+<!-- HEADER -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+
+      <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+        <img src="./assets/IMG/logos/logow.png" height="36">
+        <img src="./assets/IMG/icons/brasil.webp" height="22">
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="section.html?type=security">Segurança</a></li>
+          <li class="nav-item"><a class="nav-link" href="section.html?type=alliances">Alliances</a></li>
+          <li class="nav-item"><a class="nav-link" href="section.html?type=datacenter">Data Center</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="py-5 bg-primary text-white text-center">
+  <div class="container">
+    <h1 id="page-title" class="fw-bold"></h1>
+    <p id="page-description" class="lead mt-3" style="color: white"></p>
+  </div>
+</section>
+
+<!-- ESTEIRA -->
+<section class="py-4">
+  <div class="container">
+    <div class="d-flex overflow-auto gap-3 esteira-track">
+      <!-- Esteira de logos será populada pelo JS -->
+    </div>
+  </div>
+</section>
+
+<!-- CONTEÚDO PRINCIPAL -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      
+      <!-- COLUNA PRINCIPAL -->
+      <div class="col-lg-8 vendor-content">
+
+        <!-- DESCRIÇÃO -->
+        <section class="vendor-section mb-4">
+          <h2>Quem somos</h2>
+          <p id="vendor-description"></p>
+        </section>
+
+        <!-- PALAVRAS-CHAVE -->
+        <section class="vendor-section mb-4">
+          <h2>Palavras-chave</h2>
+          <div class="tag-list d-flex flex-wrap gap-2"></div>
+        </section>
+
+        <!-- PRODUTOS -->
+        <section class="vendor-section mb-4">
+          <h2>Principais Produtos</h2>
+          <!--<div class="grid row row-cols-1 row-cols-md-2 g-3"> -->
+          <div class="grid">
+            <!-- Cards de produtos serão populados pelo JS -->
+          </div>
+        </section>
+
+        <!-- CONCORRENTES -->
+        <section class="vendor-section mb-4">
+          <h2>Principais Concorrentes</h2>
+          <ul class="inline-list list-inline d-flex gap-3"></ul>
+        </section>
+
+        <!-- PERFIL DE CLIENTE -->
+        <section class="vendor-section mb-4">
+          <h2>Perfil de Clientes e Públicos</h2>
+          <div class="profile-grid row row-cols-1 row-cols-md-3 g-3">
+            <!-- Perfis serão populados pelo JS -->
+          </div>
+        </section>
+
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="col-lg-4 vendor-sidebar">
+        <div class="contact-card p-3 border rounded">
+          <h3>Time Adistec</h3>
+          <!-- Contatos serão populados pelo JS -->
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+  © 2026 Adistec Brasil · Portfolio
+</footer>
+
+<!-- SCRIPTS -->
+<script src="./assets/JS/bootstrap.bundle.min.js"></script>
+<script src="./assets/JS/vendor.js"></script>
+</body>
+</html>
