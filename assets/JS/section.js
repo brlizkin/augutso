@@ -55,24 +55,21 @@ fetch("assets/JSON/vendors.json")
 // ============================
 
 function handleTagSearch(value) {
+  // atualiza o estado global da busca de tags
+  tagSearchTerm = (value || "").toLowerCase().trim();
 
-  const query = value.toLowerCase().trim();
-
-  // 🔹 REGRA-CHAVE:
   // Se a busca estiver vazia, resetamos o estado visual
-  if (query === "") {
+  if (tagSearchTerm === "") {
     tagsExpanded = false;
     renderTags(allItems);
     return;
   }
 
-  // Filtra tags normalmente
-  const filteredItems = allItems.filter(item =>
-    item.tags &&
-    item.tags.some(tag => tag.toLowerCase().includes(query))
-  );
+  // Quando o usuário busca, expandimos para mostrar resultados relevantes
+  tagsExpanded = true;
 
-  renderTags(filteredItems);
+  // Renderiza usando todos os itens — renderTags vai filtrar as tags pelo tagSearchTerm
+  renderTags(allItems);
 }
 
 // ============================
