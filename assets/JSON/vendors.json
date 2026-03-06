@@ -98,6 +98,7 @@
     },
     {
       "name": "Cyberark",
+      "logo": "./assets/IMG/logos/cyberark.png",
       "description": "Fabricante global especializado em gestão de acessos privilegiados (PAM), formado a partir da união da Thycotic com a Centrify, com forte atuação em ambientes corporativos.",
       "tags": ["PAM","Privileged Access","Zero Trust","AI Security","Least Privilege","Password Vaulting","Session Monitoring","Identity Security","ZTNA","ITDR","IGA","Elevação de privilégio"],
       "link": "vendor.html?type=security&name=Cyberark",
